@@ -70,7 +70,7 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[parameters('networkInterfaces_lab_web01371_z1_externalid')]",
+                            "id": "[parameters('networkInterfaces_lab_web01388_z1_externalid')]",
                             "properties": {
                                 "deleteOption": "Detach"
                             }
