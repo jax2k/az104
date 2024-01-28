@@ -1,0 +1,89 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_lab_web01_name": {
+            "defaultValue": "lab-web01",
+            "type": "String"
+        },
+        "disks_lab_web01_disk1_c7d5f287bc4c42db93fde74ef9d7fb9a_externalid": {
+            "defaultValue": "/subscriptions/9031cbc3-7b60-415a-8ef0-58003acb4700/resourceGroups/rgPortalInteractive/providers/Microsoft.Compute/disks/lab-web01_disk1_c7d5f287bc4c42db93fde74ef9d7fb9a",
+            "type": "String"
+        },
+        "networkInterfaces_lab_web01371_z1_externalid": {
+            "defaultValue": "/subscriptions/9031cbc3-7b60-415a-8ef0-58003acb4700/resourceGroups/rgPortalInteractive/providers/Microsoft.Network/networkInterfaces/lab-web01371_z1",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2023-03-01",
+            "name": "[parameters('virtualMachines_lab_web01_name')]",
+            "location": "eastus",
+            "zones": [
+                "1"
+            ],
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "Standard_B1s"
+                },
+                "additionalCapabilities": {
+                    "hibernationEnabled": false
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "canonical",
+                        "offer": "0001-com-ubuntu-server-focal",
+                        "sku": "20_04-lts-gen2",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "osType": "Linux",
+                        "name": "[concat(parameters('virtualMachines_lab_web01_name'), '_disk1_c7d5f287bc4c42db93fde74ef9d7fb9a')]",
+                        "createOption": "FromImage",
+                        "caching": "ReadWrite",
+                        "managedDisk": {
+                            "id": "[parameters('disks_lab_web01_disk1_c7d5f287bc4c42db93fde74ef9d7fb9a_externalid')]"
+                        },
+                        "deleteOption": "Delete"
+                    },
+                    "dataDisks": [],
+                    "diskControllerType": "SCSI"
+                },
+                "osProfile": {
+                    "computerName": "[parameters('virtualMachines_lab_web01_name')]",
+                    "adminUsername": "eugene",
+                    "linuxConfiguration": {
+                        "disablePasswordAuthentication": false,
+                        "provisionVMAgent": true,
+                        "patchSettings": {
+                            "patchMode": "ImageDefault",
+                            "assessmentMode": "ImageDefault"
+                        },
+                        "enableVMAgentPlatformUpdates": false
+                    },
+                    "secrets": [],
+                    "allowExtensionOperations": true,
+                    "requireGuestProvisionSignal": true
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[parameters('networkInterfaces_lab_web01371_z1_externalid')]",
+                            "properties": {
+                                "deleteOption": "Detach"
+                            }
+                        }
+                    ]
+                },
+                "diagnosticsProfile": {
+                    "bootDiagnostics": {
+                        "enabled": true
+                    }
+                }
+            }
+        }
+    ]
+}
