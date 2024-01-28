@@ -10,7 +10,7 @@
             "defaultValue": "/subscriptions/9031cbc3-7b60-415a-8ef0-58003acb4700/resourceGroups/rgPortalInteractive/providers/Microsoft.Compute/disks/lab-web01_disk1_c7d5f287bc4c42db93fde74ef9d7fb9a",
             "type": "String"
         },
-        "networkInterfaces_lab_web01371_z1_externalid": {
+        "networkInterfaces_lab_web01388_z1_externalid": {
             "defaultValue": "/subscriptions/9031cbc3-7b60-415a-8ef0-58003acb4700/resourceGroups/rgPortalInteractive/providers/Microsoft.Network/networkInterfaces/lab-web01371_z1",
             "type": "String"
         }
