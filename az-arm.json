@@ -45,7 +45,6 @@
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[parameters('disks_lab_web01_disk1_c7d5f287bc4c42db93fde74ef9d7fb9a_externalid')]"
                         },
                         "deleteOption": "Delete"
                     },
