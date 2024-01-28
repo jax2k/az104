@@ -11,7 +11,7 @@
             "type": "String"
         },
         "networkInterfaces_lab_web01388_z1_externalid": {
-            "defaultValue": "/subscriptions/9031cbc3-7b60-415a-8ef0-58003acb4700/resourceGroups/rgPortalInteractive/providers/Microsoft.Network/networkInterfaces/lab-web01371_z1",
+            "defaultValue": "/subscriptions/9031cbc3-7b60-415a-8ef0-58003acb4700/resourceGroups/rgPortalInteractive/providers/Microsoft.Network/networkInterfaces/lab-web01388_z1",
             "type": "String"
         }
     },
