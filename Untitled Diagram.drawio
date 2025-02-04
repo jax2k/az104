@@ -22,11 +22,11 @@
         <mxCell id="pkdH5wE8G_Pr-lmgHp1S-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="130" y="269" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-9" value="Name: CH7465VF&lt;div&gt;Model: Compal 7465&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="76" width="150" height="30" as="geometry" />
+        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-9" value="Name: CH7465VF&lt;div&gt;Model: Compal 7465&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="25" y="100" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-10" value="IP: 78.45.160.127&lt;div&gt;DGW:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;78.45.160.1&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="156" width="150" height="30" as="geometry" />
+        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-10" value="IP: 78.45.160.127&lt;div&gt;DGW:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;78.45.160.1&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="168" y="75" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pkdH5wE8G_Pr-lmgHp1S-11" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="120" height="80" as="geometry" />
@@ -40,6 +40,18 @@
         </mxCell>
         <mxCell id="pkdH5wE8G_Pr-lmgHp1S-13" value="Internet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="37" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-14" value="SSID:&amp;nbsp;Vodafone-EDFD&lt;br&gt;&lt;div&gt;Pwd:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Gbh2f5vmwEvkF2ym&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215.72" y="111" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-15" value="Username:&amp;nbsp;admin&lt;br&gt;&lt;div&gt;Pwd:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Password1q!&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="25" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-16" value="IP NET: 192.168.99.0/24&lt;div&gt;DHCP:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;192.168.99.10-254&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="28" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkdH5wE8G_Pr-lmgHp1S-17" value="VLAN 100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
